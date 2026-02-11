@@ -26,8 +26,9 @@ const App = () => {
         onChange={(e) => setInput(e.target.value)}
       />
 
-      <p>Items you can buy are in green color</p>
+      
       <table>
+          <thead>Items you can buy are in green color</thead>
         <tbody>
           {items.map((item, idx) => (
             <tr key={idx}>
